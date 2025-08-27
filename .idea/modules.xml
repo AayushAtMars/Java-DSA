@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_Variable_Identifier_Input_Output/1_Variable_Identifier_Input_Output.iml" filepath="$PROJECT_DIR$/1_Variable_Identifier_Input_Output/1_Variable_Identifier_Input_Output.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java+DSA.iml" filepath="$PROJECT_DIR$/.idea/Java+DSA.iml" />
+    </modules>
+  </component>
+</project>
