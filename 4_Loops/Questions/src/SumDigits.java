@@ -5,14 +5,20 @@ public class SumDigits {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number you want to sum digits : ");
         int in=sc.nextInt();
-        int temp = in;
         int count = 0;
         int sum = 0;
-        for(int i=1;in>0;i++){
-                temp=temp%(10*i);
-                sum=sum+temp;
-                in/=10;
-                count++;
+
+        // while(in>0){
+        //     int temp2 = in%10;
+        //     sum+=temp2;
+        //     in/=10;
+        //     count++;
+        // }
+
+        for(int i=in;i>0;i/=10){
+            int temp2 = i%10;
+            sum+=temp2;
+            count++;
         }
         System.out.println("Sum is : "+sum);
         System.out.println("Count is : "+count);
